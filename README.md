@@ -13,6 +13,7 @@ Emitix es un sistema de facturación desarrollado con tecnologías modernas para
 - ESLint para control de calidad del código
 
 ## Estructura del Proyecto
+```
 emitix/
 ├── public/
 │   └── shop.svg
@@ -24,13 +25,15 @@ emitix/
 │   ├── routers/
 │   ├── store/
 │   ├── styles/
+│   │   └── GlobalStyles.jsx
+│   │   └── breakpoints.jsx
 │   ├── supabase/
 │   ├── utils/
 │   ├── App.jsx
-│   ├── App.css
+│   ├── index.js
 │   ├── main.jsx
-│   └── index.css
 
+```
 ## Estructura de Carpetas
 - /src/components : Componentes reutilizables de React
 - /src/pages : Páginas principales de la aplicación
